@@ -3,7 +3,7 @@ import { useUserStore } from '../stores/user'
 import { ElMessage } from 'element-plus'
 
 const service = axios.create({
-  timeout: 5000
+  timeout: 30000
 })
 
 // Request interceptor

@@ -47,6 +47,11 @@ const router = createRouter({
           path: 'clock',
           name: 'clock',
           component: () => import('../views/ClockList.vue')
+        },
+        {
+          path: 'assistant',
+          name: 'assistant',
+          component: () => import('../views/AiAssistant.vue')
         }
       ]
     }

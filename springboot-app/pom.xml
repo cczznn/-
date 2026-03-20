@@ -77,13 +77,25 @@
             <version>${jakarta.annotation.version}</version>
         </dependency>
 
+        <!-- 火山引擎 ARK SDK（非流式） -->
+        <dependency>
+            <groupId>com.volcengine</groupId>
+            <artifactId>volcengine-java-sdk-ark-runtime</artifactId>
+            <version>LATEST</version>
+        </dependency>
+
+
         <!-- 测试依赖 -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
         </dependency>
+
+
     </dependencies>
+
+
 
     <build>
         <plugins>
